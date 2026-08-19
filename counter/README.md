@@ -2,7 +2,7 @@
 # 🔢 React + Tailwind CSS Counter App
 
 A responsive, interactive counter application built to practice **React state management** and **Tailwind CSS utility classes**.
-
+```
 ---
 
 ## 🛠️ How It Works & What Was Used
@@ -32,11 +32,10 @@ A responsive, interactive counter application built to practice **React state ma
    cd path/to/counter-app
 
 ```
-
+```
 2. **Install project dependencies:**
 ```bash
 npm install
-
 ```
 
 
