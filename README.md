@@ -12,3 +12,8 @@ A collection of basic React mini-projects and UI components built while learning
 * **Package Manager:** npm
 
 ---
+
+## 📁 Projects Directory
+
+
+* 📂 [01-counter-app](./counter) — Interactive counter using `useState`
