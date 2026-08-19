@@ -1,9 +1,9 @@
-```markdown
+
 # 🔢 React + Tailwind CSS Counter App
 
 A responsive, interactive counter application built to practice **React state management** and **Tailwind CSS utility classes**.
-
 ---
+
 
 ## 🛠️ How It Works & What Was Used
 
@@ -31,12 +31,11 @@ A responsive, interactive counter application built to practice **React state ma
    ```bash
    cd path/to/counter-app
 
-```
+
 
 2. **Install project dependencies:**
 ```bash
 npm install
-
 ```
 
 
@@ -46,9 +45,5 @@ npm run dev
 
 ```
 
-
 4. Open your browser and go to `http://localhost:5173` (or the local URL displayed in your terminal).
 
-```
-
-```
