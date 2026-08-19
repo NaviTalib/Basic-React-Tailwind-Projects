@@ -12,10 +12,3 @@ A collection of basic React mini-projects and UI components built while learning
 * **Package Manager:** npm
 
 ---
-
-## 📁 Repository Structure
-
-```text
-.
-├── 01-counter-app/        # Counter with increment, decrement, and re
-└── README.md
