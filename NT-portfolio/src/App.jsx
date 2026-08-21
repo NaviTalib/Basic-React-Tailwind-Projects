@@ -359,7 +359,7 @@ export default function App() {
 
                 {/* Cyberpunk CV Download Button in Hero */}
                 <a 
-                  href="/resume.pdf" 
+                  href={ntResume}
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="border border-emerald-500/60 bg-emerald-950/30 text-emerald-400 hover:bg-emerald-500 hover:text-slate-950 font-bold text-xs uppercase px-6 py-3.5 rounded shadow-[0_0_15px_rgba(16,185,129,0.2)] hover:shadow-[0_0_25px_rgba(16,185,129,0.6)] transition duration-300 flex items-center gap-2"

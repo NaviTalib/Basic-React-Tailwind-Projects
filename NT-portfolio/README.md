@@ -1,9 +1,3 @@
-Here is a styled **GitHub README.md** customized for your Matrix/Cyberpunk-themed portfolio codebase.
-
----
-
-### Copyable `README.md`
-
 ```markdown
 # ⚡ NAVI TALIB // MERN STACK PORTFOLIO HUD
 
