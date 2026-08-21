@@ -1,4 +1,4 @@
-```markdown
+
 # ⚡ NAVI TALIB // MERN STACK PORTFOLIO HUD
 
 <div align="center">
