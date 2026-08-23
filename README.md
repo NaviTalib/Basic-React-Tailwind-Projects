@@ -18,3 +18,5 @@ A collection of basic React mini-projects and UI components built while learning
 
 * 📂 [01-counter-app](./counter) — Interactive counter using `useState`
 * 📂 [02-todo-app](./todo-app) — Interactive todo-app using `useState` 
+* 📂 [03-components-collection](./components-collection) — For Learning `Props, State, and Effect` 
+* 📂 [03-digital-clock](./digital-clock) — For practicing `Props, State, and Effect` 
