@@ -21,3 +21,4 @@ A collection of basic React mini-projects and UI components built while learning
 * 📂 [03-components-collection](./components-collection) — For Learning `Props, State, and Effect` 
 * 📂 [04-digital-clock](./digital-clock) — For practicing `Props, State, and Effect` 
 * 📂 [05-shopping-cart](./shopping-cart) — For practicing `Props, State, and Effect` 
+* 📂 [06-dark-mode-app](./dark-mode-app) — For practicing `Props, and State` 
