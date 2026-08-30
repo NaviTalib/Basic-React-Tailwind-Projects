@@ -1,10 +1,12 @@
 import React from 'react'
 import DigitalClock from './components/DigitalClock'
+import DigitalClockWithAlarm from './components/DigitalClockWithAlarm'
+
 
 const App = () => {
   return (
-    <main className="min-h-screen bg-slate-950 flex justify-center items-center p-4">
-      <DigitalClock />
+    <main>
+      <DigitalClockWithAlarm />
     </main>
   )
 }
