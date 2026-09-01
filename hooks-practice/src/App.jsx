@@ -9,7 +9,8 @@ import ChildA from './components/ChildA'
 import {createContext} from 'react';
 
 // step 1 : create context
-const UserContext = createContext();
+// const UserContext = createContext();
+const ThemeContext = createContext();
 
 // step 2 : wrap all the child inside a provider
 
@@ -20,7 +21,9 @@ const UserContext = createContext();
 
 const App = () => {
 
-  const [user,setUser] = useState({name : "Talib"})
+  // const [user,setUser] = useState({name : "Talib"})
+  const [theme,setTheme] = useState("light");
+
 
   // const [count, setCount] = useState(0);
   // const [total,setTotal] = useState(1);
@@ -71,9 +74,15 @@ const App = () => {
 
   return (
     <div>
-      <UserContext.Provider value={user} >
+      {/* <UserContext.Provider value={user} >
               <ChildA />
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+
+      <ThemeContext.Provider value={{theme,setTheme}}>
+        <div id="container" style={{backgroundColor: theme === "light"?"white":"black"}}>
+          <ChildA />
+        </div>
+      </ThemeContext.Provider>
 
       {/* <LoggerComp /> */}
 
@@ -102,4 +111,5 @@ const App = () => {
 }
 
 export default App
-export {UserContext}
+// export {UserContext}
+export {ThemeContext}
