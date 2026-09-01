@@ -4,9 +4,24 @@ import TimerComp from './components/TimerComp'
 import DataFetcher from './components/DataFetcher'
 import ResizeComp from './components/ResizeComp'
 import MultiEffectComp from './components/MultiEffectComp'
+import ChildA from './components/ChildA'
+
+import {createContext} from 'react';
+
+// step 1 : create context
+const UserContext = createContext();
+
+// step 2 : wrap all the child inside a provider
+
+// step 3 : pass the value
+
+// step 4 : consumer k andar jakar consume krlo
 
 
 const App = () => {
+
+  const [user,setUser] = useState({name : "Talib"})
+
   // const [count, setCount] = useState(0);
   // const [total,setTotal] = useState(1);
   // variation 1 : runs on every render
@@ -53,8 +68,12 @@ const App = () => {
 
   // }
 
+
   return (
     <div>
+      <UserContext.Provider value={user} >
+              <ChildA />
+      </UserContext.Provider>
 
       {/* <LoggerComp /> */}
 
@@ -64,8 +83,7 @@ const App = () => {
 
       {/* <ResizeComp /> */}
 
-      <MultiEffectComp />
-
+      {/* <MultiEffectComp /> */}
       {/* <button
         onClick={handleClick}
       >Update Count</button>
@@ -84,3 +102,4 @@ const App = () => {
 }
 
 export default App
+export {UserContext}
