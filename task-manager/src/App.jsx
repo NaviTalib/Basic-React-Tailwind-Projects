@@ -1,9 +1,21 @@
-import React from 'react'
+import React from 'react';
+import { AuthProvider } from './context/AuthContext';
+import { TaskProvider } from './context/TaskContext';
+import { Navbar } from './components/Navbar';
+import { TaskForm } from './components/TaskForm';
+import { TaskList } from './components/TaskList';
+import './index.css';
 
-const App = () => {
+export default function App() {
   return (
-    <div>App</div>
-  )
+    <AuthProvider>
+      <TaskProvider>
+        <main className="app-container">
+          <Navbar />
+          <TaskForm />
+          <TaskList />
+        </main>
+      </TaskProvider>
+    </AuthProvider>
+  );
 }
-
-export default App
