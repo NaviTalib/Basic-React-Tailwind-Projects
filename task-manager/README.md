@@ -1,16 +1,41 @@
-# React + Vite
+# ⚡ TaskFlow — Modern React Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+TaskFlow is a sleek, responsive task management application built with **React**, leveraging modern React Hooks (`useState`, `useEffect`, `useContext`) for global state management, user authentication simulation, and persistent local storage.
 
-Currently, two official plugins are available:
+![TaskFlow Interface Banner](./src/assets/image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **🔐 Simulated Authentication:** Global user session management using `AuthContext`.
+- **⚡ Centralized State Management:** React Context API (`TaskContext`) avoids prop drilling across components.
+- **💾 Local Storage Syncing:** `useEffect` side-effects synchronize tasks and session data directly to browser storage.
+- **🔍 Active Task Filtering:** Filter view between All, Pending, and Completed tasks seamlessly.
+- **🎨 Modern Responsive UI:** A glassmorphic design system written completely in pure CSS using custom design tokens (`index.css`).
+- **🌙 Automatic Dark Mode:** Built-in CSS media query support matching user system preferences.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Built With
+
+* [React.js](https://react.dev/) — Frontend Library
+* [Vite](https://vitejs.dev/) / [Create React App](https://create-react-app.dev/) — Build Tooling
+* [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) — Design System & Tokens
+
+---
+
+## 📁 Project Structure
+
+```text
+src/
+├── components/
+│   ├── Navbar.jsx       # Auth display and login/logout controls
+│   ├── TaskForm.jsx     # Input form for creating new tasks
+│   └── TaskList.jsx     # Responsive grid displaying filtered task cards
+├── context/
+│   ├── AuthContext.jsx  # Global state for user session management
+│   └── TaskContext.jsx  # Global state for task operations and LocalStorage sync
+├── App.jsx              # Main container wrapping Context Providers
+├── index.css            # Single-file global design system & component styles
+└── main.jsx             # React DOM entry point
