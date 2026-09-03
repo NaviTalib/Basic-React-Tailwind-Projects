@@ -1,4 +1,3 @@
-```markdown
 # 🛒 TempStore - React E-Commerce Cart App
 
 A modern, responsive e-commerce shopping cart application built with **React**, **Tailwind CSS**, and **FakeStoreAPI**. 
