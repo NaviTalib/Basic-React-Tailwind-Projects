@@ -4,6 +4,7 @@ import Button from './components/Button'
 import Counter from './components/Counter'
 import Form from './components/Form'
 import ControlledForm from './components/ControlledForm'
+import UncontrolledForm from './components/UncontrolledForm'
 
 const App = () => {
   const skills = ['html', 'css', 'js']
@@ -42,6 +43,7 @@ const App = () => {
       <Greeting isLoggedIn={true} />
       <UserStatus isOnline = {true} />
       <ControlledForm />
+      <UncontrolledForm />
 
     </div>
   )
