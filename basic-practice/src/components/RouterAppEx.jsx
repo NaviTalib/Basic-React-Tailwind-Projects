@@ -1,3 +1,11 @@
+// Essential Components and Hooks
+
+// <Link> / <NavLink>: Used to navigate between paths without triggering a full page reload (renders an anchor tag internally).
+// <Routes> and <Route>: Used to match the current URL against a list of paths and render the corresponding component
+// useNavigate(): A hook that returns an imperatively callable function for programmatic navigation (e.g., after a form submission).
+// useParams(): A hook that extracts dynamic parameters from the current URL path.
+// useLoaderData(): A hook used in data-mode routers to access data returned by a route's loader function.  
+
 import React from 'react';
 import {BrowserRouter,Routes,Route,Link,useParams,useNavigate} from 'react-router';
 
