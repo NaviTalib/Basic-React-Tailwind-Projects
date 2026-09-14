@@ -5,6 +5,8 @@ import Counter from './components/Counter'
 import Form from './components/Form'
 import ControlledForm from './components/ControlledForm'
 import UncontrolledForm from './components/UncontrolledForm'
+import RouterAppEx from './components/RouterAppEx'
+
 
 const App = () => {
   const skills = ['html', 'css', 'js']
@@ -40,10 +42,11 @@ const App = () => {
       <Button onSelect={handleClicked} name="Talib" /> */}
       {/* <Counter /> */}
       {/* <Form /> */}
-      <Greeting isLoggedIn={true} />
+      {/* <Greeting isLoggedIn={true} />
       <UserStatus isOnline = {true} />
       <ControlledForm />
-      <UncontrolledForm />
+      <UncontrolledForm /> */}
+      <RouterAppEx />
 
     </div>
   )
