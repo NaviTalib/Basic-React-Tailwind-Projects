@@ -6,6 +6,7 @@ import Form from './components/Form'
 import ControlledForm from './components/ControlledForm'
 import UncontrolledForm from './components/UncontrolledForm'
 import RouterAppEx from './components/RouterAppEx'
+import SimpleBlog from './components/SimpleBlog'
 
 
 const App = () => {
@@ -46,7 +47,8 @@ const App = () => {
       <UserStatus isOnline = {true} />
       <ControlledForm />
       <UncontrolledForm /> */}
-      <RouterAppEx />
+      {/* <RouterAppEx /> */}
+      <SimpleBlog />
 
     </div>
   )
