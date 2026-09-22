@@ -7,6 +7,8 @@ import ControlledForm from './components/ControlledForm'
 import UncontrolledForm from './components/UncontrolledForm'
 import RouterAppEx from './components/RouterAppEx'
 import SimpleBlog from './components/SimpleBlog'
+import Parent from './components/Parent'
+
 
 
 const App = () => {
@@ -48,7 +50,8 @@ const App = () => {
       <ControlledForm />
       <UncontrolledForm /> */}
       {/* <RouterAppEx /> */}
-      <SimpleBlog />
+      {/* <SimpleBlog /> */}
+      <Parent />
 
     </div>
   )
