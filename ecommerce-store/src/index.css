@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Enable manual class-based dark mode in Tailwind v4 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    background-color: #f9fafb;
+    color: #111827;
+    transition: color 200ms, background-color 200ms;
+  }
+
+  :where(body.dark, .dark body) {
+    background-color: #111827;
+    color: #f3f4f6;
+  }
+}
