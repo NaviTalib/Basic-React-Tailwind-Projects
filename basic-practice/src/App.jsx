@@ -8,6 +8,8 @@ import UncontrolledForm from './components/UncontrolledForm'
 import RouterAppEx from './components/RouterAppEx'
 import SimpleBlog from './components/SimpleBlog'
 import Parent from './components/Parent'
+import UserProfile from './components/UserProfile'
+
 
 
 
@@ -51,7 +53,10 @@ const App = () => {
       <UncontrolledForm /> */}
       {/* <RouterAppEx /> */}
       {/* <SimpleBlog /> */}
-      <Parent />
+      {/* <Parent /> */}
+      <UserProfile userId={1}/>
+      <UserProfile userId={2}/>
+      <UserProfile userId={3}/>
 
     </div>
   )
