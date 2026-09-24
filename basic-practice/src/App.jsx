@@ -9,6 +9,7 @@ import RouterAppEx from './components/RouterAppEx'
 import SimpleBlog from './components/SimpleBlog'
 import Parent from './components/Parent'
 import UserProfile from './components/UserProfile'
+import AdviceGenrator from './components/AdviceGenrator'
 
 
 
@@ -54,9 +55,10 @@ const App = () => {
       {/* <RouterAppEx /> */}
       {/* <SimpleBlog /> */}
       {/* <Parent /> */}
-      <UserProfile userId={1}/>
+      {/* <UserProfile userId={1}/>
       <UserProfile userId={2}/>
-      <UserProfile userId={3}/>
+      <UserProfile userId={3}/> */}
+      <AdviceGenrator />
 
     </div>
   )
